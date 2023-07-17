@@ -1,11 +1,12 @@
 import React from 'react'
 import MainCarosel from '../../components/homeCausorual/MainCarosel'
+import HomeSectionCarosel from '../../components/HomeSectionCarosel/HomeSectionCarosel'
 
 const HomePage = () => {
   return (
     <div>
       <MainCarosel/>
-      <div>other sections</div>
+      <div><HomeSectionCarosel/></div>
     </div>
    
   )
